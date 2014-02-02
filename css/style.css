@@ -61,8 +61,19 @@ ul.nav li a {
 
 }
 
+#new-places .small-pic {
+	height:160px;
+	width: 385px;
+
+}
+
 #featured-photo img {
 		border: 8px solid #FAF3BC;
+}
+
+#featured-photo #feature-pic {
+		height:360px;
+		width: 555px;
 }
 
 #copyright{
