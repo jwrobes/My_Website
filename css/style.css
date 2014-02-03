@@ -5,19 +5,21 @@
 #FEF9FF white
 #FF7778 light pink
 #BB0E10 Dark red
+change links to random pop out color
+change text to black
 
 
 */
 
 body {
 	font-family: "Nunito", sans-serif;
-	color: #E33738;
-	background: #EFB470  url('img/bg-textture.jpg') repeat;
+	color: #232323;
+	background: #FEF9FF  url('img/bg-textture.jpg') repeat;
 
 }
 
 a{
-	color: #BB0E10;
+	color: #07a4d1;
 	text-decoration: none;
 }
 
@@ -45,6 +47,7 @@ h2 {
 }
 
 .header .title a {
+	color: #E33738;
 	margin: auto;
 	font-size: 3.0em;
 
