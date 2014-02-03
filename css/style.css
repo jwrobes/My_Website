@@ -1,12 +1,23 @@
+/*
+
+#EFB470 tan
+#E33738 strawberries
+#FEF9FF white
+#FF7778 light pink
+#BB0E10 Dark red
+
+
+*/
+
 body {
 	font-family: "Nunito", sans-serif;
-	color: #FF7C75;
-	background: #7F3E3B url('img/bg-textture.jpg') repeat;
+	color: #E33738;
+	background: #EFB470  url('img/bg-textture.jpg') repeat;
 
 }
 
 a{
-	color: #FF3429;
+	color: #BB0E10;
 	text-decoration: none;
 }
 
@@ -17,12 +28,12 @@ h1 {
 
 h2 {
 	font-size: 1.500em;
-	color: #CC2921;
+	color: #E33738;
 }
 
 .btn {
-	color: #FAF3BC;
-	background: #4FB69F url('img/texture.png') no-repeat right top;
+	color: #FEF9FF;
+	background: #FF7778  url('img/texture.png') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
 	border-radius: 25px;
@@ -56,7 +67,7 @@ ul.nav li a {
 }
 
 #new-places img {
-	border: 8px solid #7F1A14;
+	border: 8px solid #FF7778;
 	margin: 0 0 20px 0;
 
 }
@@ -68,7 +79,7 @@ ul.nav li a {
 }
 
 #featured-photo img {
-		border: 8px solid #7F1A14;
+		border: 8px solid #FF7778;
 }
 
 #featured-photo #feature-pic {
