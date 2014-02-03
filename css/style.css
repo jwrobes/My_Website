@@ -14,7 +14,9 @@ change text to black
 body {
 	font-family: "Nunito", sans-serif;
 	color: #232323;
-	background: #FEF9FF  url('img/bg-textture.jpg') repeat;
+	background: #FEF9FF;
+	background-image: url('../img/white_wall_hash.png');
+	background-repeat: repeat;
 
 }
 
@@ -79,19 +81,25 @@ h2 {
 	background: #BB0E10; 
 }
 
-ul.nav {
-	margin: 120px 0 0 0;
-	list-style: none;
-	float: right;
+.nav {
 
+	width: 100%;
+	height: 25px;
+	background-color: blue;
 }
 
-ul.nav li {
+.nav ul {
+		list-style: none;
+		margin: 120px 0 0 0;
+}
+
+.nav ul li {
+	display: inline;
 	float: left;
 	margin-right: 40px;
 }
 
-ul.nav li a {
+.nav ul li a {
 	color: #CC2921;
 }
 
