@@ -40,6 +40,7 @@ h2 {
 	margin: auto;
 	width: 100%;
 	height: 250px;
+
 }
 
 .header #piglogo {
@@ -76,26 +77,14 @@ h2 {
 	background: #BB0E10; 
 }
 
-.wrap {
-
-
-}
 
 .nav {
 	padding: 2px;
 	background: #FF7778 url('../img/textured_stripes_red.png') repeat;
 	text-align: center;
+	border-bottom: solid 5px #FF7778; 
 	
 }
-
-.inner-div
-{
-     margin: 0 auto; 
-     color: red;
-     border-width: 2px;
-     border-color: black;
-}
-
 
 .nav ul {
 		list-style: none;
