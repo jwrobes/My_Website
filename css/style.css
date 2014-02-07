@@ -107,7 +107,7 @@ h2 {
 }
 
 .featured_trip {
-	height: 400px;
+	
 	padding: none;
 	border: none;
 	margin: 0px;
@@ -141,8 +141,9 @@ h2 {
 
 .featured_trip_description {
 	margin: none;
-	height: 50px;
+	height: 70px;
 	text-align: center;
+	background-color: blue;
 }
 
 .middle_section {
@@ -162,6 +163,17 @@ h2 {
 	margin-top: -35px;
 
 }
+
+.Fri_Photos {
+	height: 200px;
+
+}
+
+.photo_sections {
+	width:150px;
+}
+
+/*
 
 #intro {
 	margin: 50px 0px 0px 0;
@@ -188,7 +200,7 @@ h2 {
 		height:360px;
 		width: 555px;
 }
-
+*/
 #copyright{
 	border-top: 8px solid #2A0400;
 	padding: 10px 0px;
