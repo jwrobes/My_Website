@@ -25,19 +25,23 @@ a{
 	text-decoration: none;
 }
 
+a:hover {
+	color: #02313f;
+}
+
 h1 {
 	font-family: "Acme",sans-serif;
-	font-size: 1.850em;
+	font-size: 1.250em;
 	letter-spacing: -1px;
 	text-transform: uppercase;
-	color: #BB0E10;
+	color: #E33738;
+	margin: 10px 0;
 }
 
 h2 {
 	font-family: "Acme", sans-serif;
 	font-size: 1.600em;
 	color: #404040;
-
 }
 
 h3 {
@@ -46,21 +50,26 @@ h3 {
 	color: #404040;
 	text-transform: uppercase;
 	letter-spacing: -1px;
+}
 
+h4 {
+	margin: 10px 0;
 }
 
 
-
-
-.container {
+h5 {
+	font-family: "Acme", sans-serif;
+	font-size: 2.0em;
+	color: #404040;
+	letter-spacing: -1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .header {
 	margin: auto;
 	width: 100%;
 	height: 250px;
-
-
 }
 
 .header #piglogo {
@@ -68,14 +77,12 @@ h3 {
 	height: 250px;
 }
 
-
 .header .title {
 	width: 100%;
 	text-align: center;
 	padding: 5px;
-	
-
 }
+
 
 .header .title a {
 	color: #FF7778; 
@@ -84,28 +91,12 @@ h3 {
 
 }
 
-.btn {
-	color: #FEF9FF;
-	background: #FF7778  url('img/texture.png') no-repeat right top;
-	padding: 15px 30px;
-	margin: 40px 0px;
-	border-radius: 25px;
-	text-transform: uppercase;
-
-}	
-
-.btn:hover {
-	background: #BB0E10; 
-}
-
-
 .nav {
 	padding: 0px;
 	background: #FF7778 url('../img/textured_stripes_red.png') repeat;
 	text-align: center;
 	border-bottom: solid 5px #FF7778; 
 	margin: 0;
-	
 }
 
 .nav ul {
@@ -114,8 +105,7 @@ h3 {
 
 .nav ul li {
 	display: inline;
-	margin: 30px;
-
+	margin: 30px
 }
 
 .nav ul li a {
@@ -126,8 +116,11 @@ h3 {
 	text-transform: uppercase;
 }
 
-.featured_trip {
-	
+.nav ul li a:hover {
+	color: #BB0E10;
+}
+
+.featured_trip {	
 	padding: none;
 	border: none;
 	margin: 0px;
@@ -161,12 +154,11 @@ h3 {
 .featured_div h3 {
 	margin-bottom: 5px;
 	margin-top: 10px;
-
 }
 
 
 .middle_section {
-	margin: 20px 0;
+	margin: 5px 0 20px 0;
 	position: relative;
 	width: 100%;
 	height: 152.5px;
@@ -177,8 +169,7 @@ h3 {
 .feature {
   width: 100%;
   height: 110px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .feature_title {
@@ -209,9 +200,6 @@ h3 {
 	margin: 0 -3px 0 -3px;
 }
 
-#left_feature {
-
-}
 
 .feature_img {
   display:inline-block;
@@ -223,14 +211,13 @@ h3 {
 
 .feature_description {
   display: inline-block;
-  width: 180px;
+  width: 165px;
   text-align: left;
   margin-right: 5px;
   float: right;
-  padding-left: 50px;
+  padding-left: 65px;
   padding-top:25px;
-  padding-bottom:25px;
-  
+  padding-bottom:25px;  
 }
 
 .featured_trip_description {
@@ -243,13 +230,12 @@ h3 {
 .featured_description {
 	margin: none;
 	padding-left:15px;
-
 }
 
 #pig_world {
 	height: 225px;
 	position: absolute;
-	top: -36px;
+	top: -44px;
 
 }
 
@@ -276,12 +262,16 @@ h3 {
 }
 
 
+
 .friends_photos h3{
 	font-size: 1.4em;
 	margin-top: 14px;
 	margin-bottom: 10px;
 }
 
+.friends_photos p {
+	margin: 10px 0px 16px 0px;
+}
 
 
 .Fri_Photos {
@@ -307,26 +297,59 @@ h3 {
 footer {
 		background: #FF7778 url('../img/textured_stripes_red.png') repeat;
 		width: 100%;
-		height: 400px;
+		height: 385px;
 }
 
 
 footer h2 {
 	color: white;
+	text-shadow:1px 1px 2px #BB0e10;
 }
 
 footer p {
-	color: #BB0E10;
+	color: black;
 	font-weight: bold;
 }
+
 
 .footer_wrapper {
 	margin: auto;
 }
 
 
+.history {
+	margin-top: 40px;
+	padding: 20px;
+	background: #FF7778 url('../img/textured_stripes_pink.png') repeat;
+	box-shadow: 1px 1px 10px #BB0E10;
+	border-radius: 40px;
+}
 
+.social {
+	height:60px;
+	padding: 30px 0;
+	text-align: center;
+}
 
+#facebook {
+	display: inline-block;
+	margin: 20px;
+}
+
+#twitter {
+	display: inline-block;
+	margin: 20px;
+}
+
+.Dev {
+	height: 200px;
+	text-align: center;
+}
+
+.copyright {
+	padding-top: 10px;
+	text-align: center;
+}
 /*
 
 #intro {
